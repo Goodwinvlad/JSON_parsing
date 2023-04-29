@@ -24,9 +24,6 @@
 
 # Test assignment TA2
 
-### Description 
-TBD
-
 ### Deployement
 
 1) Create virtual environment:
