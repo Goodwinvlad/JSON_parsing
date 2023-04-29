@@ -22,4 +22,29 @@
 * resources – ссылки на ID контента, содержащегося в фиде
 
 
+# Test assignment TA2
+
+### Description 
+TBD
+
+### Deployement
+
+1) Create virtual environment:
+```
+python -m venv venv
+```
+2) Install project dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+3) Set up project database, in case the port is already taken change it in [docker-compose.yml](docker-compose.yml)
+```bash
+docker-compose up -d
+```
+4) Run TA2 script:
+```bash
+python etl.py
+```
+5) Run TA2_get_Data script by Jypiter
 
